@@ -3,7 +3,7 @@ class LinkMaker {
     this.parsedFile = parsedFile;
   }
 
-  linkMaker(){
+  async linkMaker(){
     let arr = this.parsedFile;
     switch (arr[0]){
       case "KJ39":
